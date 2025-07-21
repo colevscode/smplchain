@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "smplchain"
+version = "0.1.0"
+description = "Speed up and pitch up parts of a wav file using ffmpeg via pydub."
+authors = ["Cole Krumbholz <cole@colevscode.io>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.12"
+pydub = "^0.25.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api" 
